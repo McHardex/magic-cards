@@ -16,8 +16,9 @@ import { OptionTypeBase } from "react-select";
 // Api
 import ApiService from "services/api";
 
-import "./App.css";
 import Loader from "Components/Loader";
+
+import "./App.css";
 
 const App = () => {
   const [selectedOption, setSelectedOption] = useState<OptionTypeBase>({
