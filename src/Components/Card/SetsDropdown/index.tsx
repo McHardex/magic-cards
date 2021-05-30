@@ -19,7 +19,7 @@ const SetsDropDown: React.FC<DropDownProps> = (props: Props) => {
           />
         </div>
         <button onClick={handleGatherCards} type="button">
-          Gather
+          Gather Cards
         </button>
       </div>
     </div>
