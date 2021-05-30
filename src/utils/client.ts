@@ -9,9 +9,11 @@ const client = (): AxiosInstance => {
   axiosApiInstance.interceptors.request.use(
     async (config) => {
       config.headers = {
-        "X-Authorization": process.env.REACT_APP_API_KEY,
         Accept: "application/json",
         "Content-Type": "application/json; charset=UTF-8",
+        "page-size": 10,
+        count: 100,
+        "total-count": 100,
       };
       return config;
     },
