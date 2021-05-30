@@ -1,0 +1,39 @@
+.cardWrapper {
+  width: 80%;
+  height: 390px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 2px solid #000;
+  /* transform: translateY(15px); */
+  animation: slideIn 1s ease-in-out;
+}
+
+.cardWrapper img {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.cardWrapper p {
+  font-weight: bold;
+}
+
+.cardWrapper p > span {
+  font-weight: normal;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
