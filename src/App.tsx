@@ -1,8 +1,14 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useEffect } from "react";
+import logo from "assets/images/logo.svg";
 
-function App() {
+import "./App.css";
+import { getAllSets } from "actions/api";
+
+const App = () => {
+  useEffect(() => {
+    getAllSets();
+  }, []);
+
   return (
     <div className="App">
       <header className="App-header">
@@ -21,6 +27,6 @@ function App() {
       </header>
     </div>
   );
-}
+};
 
 export default App;
