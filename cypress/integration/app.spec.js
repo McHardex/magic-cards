@@ -25,7 +25,12 @@ describe("The App Component", () => {
 
     cy.get(".cards-container").children().should("have.length", 12);
 
-    cy.get(".App").scrollTo("bottom");
+    cy.get(".App").scrollTo("bottom", {
+      duration: 2000,
+      easing: "swing",
+    });
+
+    cy.wait(2000);
 
     cy.get(":nth-child(3) > .MuiButtonBase-root").click();
 

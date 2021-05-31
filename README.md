@@ -1,46 +1,46 @@
-# Getting Started with Create React App
+## Project Name & Pitch
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Magic Cards
 
-## Available Scripts
+React webpage that allows to get information on cards from Magic [Getting
+Started](magicthegathering.io).
 
-In the project directory, you can run:
+## Project Features
 
-### `yarn start`
+- [x] Select a set from all available sets
+- [x] Show a list of the cards in that set with a bit of
+      information about each card When I hit ‘Gather’.
+- [x] Paginate result
+- [x] Search through Sets dropdown filter
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Installation and Setup Instructions
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Clone down this repository. You will need `node` and `npm/yarn` installed globally on your machine.
 
-### `yarn test`
+Installation:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`yarn install`
 
-### `yarn build`
+Create a .env file and add the following variables:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`REACT_APP_API_BASE_URL="https://api.magicthegathering.io/v1"`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To Start Server:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`yarn start`
 
-### `yarn eject`
+To Visit App:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+`localhost:3000`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To Run unit test:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+`yarn test`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+To Run End2End test:
 
-## Learn More
+`yarn run cypress open`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Deployment
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This application is deployed with `Netlify` and it is live [here](https://awesome-newton-d4015e.netlify.app/)
