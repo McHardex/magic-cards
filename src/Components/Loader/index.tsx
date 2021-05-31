@@ -7,9 +7,9 @@ interface Props {
 
 const Loader: React.FC<Props> = ({ message }: Props) => {
   return (
-    <div className={styles.loader}>
+    <div className={styles.loader} data-cy="loader-wrapper">
       <ThreeDots stroke="#000" />
-      <span>{message}</span>
+      <span data-cy="loader-message">{message}</span>
     </div>
   );
 };

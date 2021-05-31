@@ -1,14 +1,11 @@
 .cardWrapper {
   width: 80%;
-  height: 390px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  padding: 10px 20px;
   border-radius: 5px;
   border: 2px solid #000;
   animation: slideIn 1s ease-in-out;
+  box-sizing: border-box;
+  text-align: center;
 }
 
 .cardWrapper img {
