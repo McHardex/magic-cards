@@ -3,7 +3,7 @@ import { ChangeEvent, useEffect, useState } from "react";
 
 // Components
 import Card from "Components/Card/index";
-import SetsDropDown from "Components/Card/SetsDropdown";
+import SetsDropDown from "Components/SetsDropdown";
 import Pagination from "@material-ui/lab/Pagination";
 
 // Utils
@@ -141,10 +141,9 @@ const App = () => {
                 <p>Opps!!! No magic cards found</p>
               ) : (
                 <div className="cards-container">
-                  {magicCards.map((card, i) => (
+                  {magicCards.map((card) => (
                     <Card
                       key={card.number}
-                      cardIndex={i}
                       card={card}
                       releaseDate={releaseDate}
                     />

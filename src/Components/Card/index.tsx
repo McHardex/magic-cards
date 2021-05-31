@@ -4,7 +4,6 @@ import styles from "./Card.module.css";
 interface Props {
   card: MagicCard;
   releaseDate?: string;
-  cardIndex?: number;
 }
 
 const Card = (props: Props) => {
@@ -16,7 +15,7 @@ const Card = (props: Props) => {
   return (
     <div className={styles.cardWrapper}>
       <p>
-        Artist: <span>{card.setName}</span>
+        {card.setName} - {card.name}
       </p>
       <img src={card.imageUrl || cardDefault} alt={card.name} />
 
