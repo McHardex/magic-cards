@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f059e9df-cf28-452d-a53d-b123a7e3eccd/deploy-status)](https://app.netlify.com/sites/magic-cards/deploys)
+
 ## Project Name & Pitch
 
 Magic Cards
@@ -43,4 +45,4 @@ To Run End2End test:
 
 ## Deployment
 
-This application is deployed with `Netlify` and it is live [here](https://awesome-newton-d4015e.netlify.app/)
+This application is deployed with `Netlify` and it is live [here](https://magic-cards.netlify.app/)
