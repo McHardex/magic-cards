@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f059e9df-cf28-452d-a53d-b123a7e3eccd/deploy-status)](https://app.netlify.com/sites/magic-cards/deploys)
+
 ## Project Name & Pitch
 
 Magic Cards
