@@ -44,5 +44,7 @@
   .dropdownContainer button {
     margin-left: unset;
     margin-top: 10px;
+    height: 45px;
+    width: 100%;
   }
 }
