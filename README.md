@@ -43,4 +43,4 @@ To Run End2End test:
 
 ## Deployment
 
-This application is deployed with `Netlify` and it is live [here](https://awesome-newton-d4015e.netlify.app/)
+This application is deployed with `Netlify` and it is live [here](https://magic-cards.netlify.app/)
