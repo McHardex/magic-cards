@@ -1,0 +1,35 @@
+.cardWrapper {
+  width: 80%;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 2px solid #000;
+  animation: slideIn 1s ease-in-out;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.cardWrapper img {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.cardWrapper p {
+  font-weight: bold;
+}
+
+.cardWrapper p > span {
+  font-weight: normal;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

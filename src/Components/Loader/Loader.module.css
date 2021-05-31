@@ -1,0 +1,14 @@
+.loader {
+  margin-top: 50px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader span {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 12px;
+
+}
